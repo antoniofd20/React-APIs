@@ -31,7 +31,9 @@ const Formulario = ({guardarBusquedaLetra}) => {
         guardarError(false);
 
         // Todo bien, pasar al componente principal
-        guardarBusquedaLetra(busqueda);
+        if(artista != '' && cancion != ''){
+            guardarBusquedaLetra(busqueda);
+        }
     }
 
     return (
@@ -76,7 +78,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
                             <button 
                                 type="submit"
                                 className="btn btn-primary float-right mt-4"
-                            >Buscar Letra</button>
+                            >Buscar</button>
                         </fieldset>
                     </form>
                 </div>
