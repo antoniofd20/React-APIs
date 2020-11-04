@@ -8,3 +8,5 @@ Noticias (Error con la consulta a la api) -> https://hardcore-kowalevski-d8008b.
 Banco de imagenes -> https://infallible-montalcini-b19c71.netlify.app
 
 letras de canciones -> https://eloquent-galileo-6a9b25.netlify.app
+
+Buscador de recetas de bebidas -> https://priceless-montalcini-ff2877.netlify.app/
